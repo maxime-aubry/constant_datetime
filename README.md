@@ -4,11 +4,13 @@ ConstantDateTime is a class that allows you to use DateTime as a constant.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+If you need to use a constant datetime into your project, you can use ConstantDateTime class.
+Of course, it won't be possible to change value of your object after instanciation.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Here is a short example :
+''' dart
+const DateTime value = ConstantDateTime('2021-01-01T00:00:00.000');
+DateTime dtvalue = value.toDateTime();
+'''
+
+toDateTime method from ConstantDateTime class returns a casted value of formatted string.
