@@ -8,9 +8,9 @@ If you need to use a constant datetime into your project, you can use ConstantDa
 Of course, it won't be possible to change value of your object after instanciation.
 
 Here is a short example :
-'''dart
+```dart
 const DateTime value = ConstantDateTime('2021-01-01T00:00:00.000');
 DateTime dtvalue = value.toDateTime();
-'''
+```
 
 toDateTime method from ConstantDateTime class returns a casted value of formatted string.
