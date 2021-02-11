@@ -1,3 +1,4 @@
-## [0.0.1] - TODO: Add release date.
+## [1.0.0] - TODO: Add ConstantDateTime class.
 
-* TODO: Describe initial release.
+Constant datetime feature is added.
+All tests are OK.
